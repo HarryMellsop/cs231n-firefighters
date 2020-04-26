@@ -1,0 +1,216 @@
+<metadata>
+	<eainfo>
+		<detailed>
+			<attr>
+				<attrlabl>AGENCY</attrlabl>
+				<attalias>AGENCY</attalias>
+				<attrdef>Direct Protection Agency who responed to the fire (based on UNIT_ID, assigned by Direct Protection Area)</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>ALARM_DATE</attrlabl>
+				<attalias>ALARM_DATE</attalias>
+				<attrdef>ALARM_DATE</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>CAUSE</attrlabl>
+				<attalias>CAUSE</attalias>
+				<attrdef>Reason fire ignited</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>C_METHOD</attrlabl>
+				<attalias>C_METHOD</attalias>
+				<attrdef>Method used to capture fire perimeter data</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>COMMENTS</attrlabl>
+				<attalias>COMMENTS</attalias>
+				<attrdef>COMMENTS</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>CONT_DATE</attrlabl>
+				<attalias>CONT_DATE</attalias>
+				<attrdef>CONT_DATE</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attalias>FID</attalias>
+				<attrdef>FID</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>FIRE_NAME</attrlabl>
+				<attalias>FIRE_NAME</attalias>
+				<attrdef>Name assigned to fire by responsible agency</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>FIRE_NUM</attrlabl>
+				<attalias>FIRE_NUM</attalias>
+				<attrdef>This used to be a CAL FIRE and Federal number, but now is only used by Fedreal Agencies, so it isn't collected.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>GIS_ACRES</attrlabl>
+				<attalias>GIS_ACRES</attalias>
+				<attrdef>Calculated area in acres based on Shape_Area.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>INC_NUM</attrlabl>
+				<attalias>INC_NUM</attalias>
+				<attrdef>The Incident number; a consecutive number assigned by the Emergency Command Center of the responsible agency for the fire.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>OBJECTID</attrlabl>
+				<attalias>OBJECTID</attalias>
+				<attrdef>Internal feature number</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>OBJECTIVE</attrlabl>
+				<attalias>OBJECTIVE</attalias>
+				<attrdef>Either suppression or resource benefit (a fire that is allowed to burn in order to encourage environmental health.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>REPORT_AC</attrlabl>
+				<attalias>REPORT_AC</attalias>
+				<attrdef>Estimated area consumed in fire</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attalias>Shape</attalias>
+				<attrdef>Feature geometry.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Shape_Area</attrlabl>
+				<attalias>Shape_Area</attalias>
+				<attrdef>Area of feature in internal units squared.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Shape_Leng</attrlabl>
+				<attalias>Shape_Leng</attalias>
+				<attrdef>Shape_Leng</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>STATE</attrlabl>
+				<attalias>STATE</attalias>
+				<attrdef>STATE</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>UNIT_ID</attrlabl>
+				<attalias>UNIT_ID</attalias>
+				<attrdef>Unit of responsible agency where fire started (based on Direct Protection Area)</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>YEAR_</attrlabl>
+				<attalias>YEAR_</attalias>
+				<attrdef>YEAR_</attrdef>
+			</attr>
+		</detailed>
+	</eainfo>
+	<idinfo>
+		<ptcontac>
+			<cntinfo>
+				<cntpos>Data Steward</cntpos>
+				<cntemail>david.passovoy@fire.ca.gov</cntemail>
+				<cntperp>
+					<cntper>David Passovoy</cntper>
+					<cntorg>CAL FIRE</cntorg>
+				</cntperp>
+			</cntinfo>
+		</ptcontac>
+		<useconst>This work is licensed under a  Creative Commons Attribution 3.0 License .</useconst>
+		<datacred>CAL FIRE recognizes the various partners that have contributed to this dataset, including USDA Forest Service Region 5, USDI Bureau of Land Managment, National Park Service, National Fish and Wildlife Service, and numerous local agencies.</datacred>
+		<keywords>
+			<theme>
+				<themekey>fire history,wildfires,fire perimeters,california,perimeters</themekey>
+			</theme>
+		</keywords>
+		<spdom>
+			<bounding>
+				<southbc>3820209.3269</southbc>
+				<northbc>5264087.8474</northbc>
+				<eastbc>-12655290.4715</eastbc>
+				<westbc>-13863335.9005</westbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>This dataset represents USDA Forest Service fire perimeters 10+ acres
+and California Dept of Forestry fire perimeters 300+ acres occurring
+from the year 1950 to 2007. The geographic extent of the fires includes
+the State of California, Region 5 Forests (some R5 Forests have
+boundaries falling outside CA) and the Toiyabe National Forest in Region
+4.  Some fires before 1950 are also included. Fires are compiled from
+both historic and recently mapped records. This layer contains records
+up to and including fires from 2018.Fire18_1 was released May 1st, 2019. 413 wildfires from the 2018 fire season were added to the database. There are two fires on BIA managed land that do not have 3 letter code identifiers and thus "Unit" was left blank. A hand drawn perimeter of the 1990 San Juan Canyon fire in BEU was submitted by a fire fighter who worked on the fire. The perimeter of the Thomas fire of 2017 was replaced this year by one collected by SBC that is based on someone walking some parts of the perimeter for better accuracy.</abstract>
+			<purpose>Provides a reasonable view of the spatial distribution of past large fires. Due to missing perimeters (see Use Limitations) this layer should be used carefully for statistical analysis and reporting.</purpose>
+			<supplinf>Version 14_1: an effort was made to ensure multipart polygons were standardized throughout the dataset.</supplinf>
+		</descript>
+		<citation>
+			<citeinfo>
+				<onlink>https://databasin.org/datasets/bf8db57ee6e0420c8ecce3c6395aceeb</onlink>
+				<title>California, USA Fire History from 1950 to 2018</title>
+				<origin>CDF</origin>
+				<origin>USFS</origin>
+				<origin>BLM</origin>
+				<origin>NPS.</origin>
+				<othercit>Title:  California, USA Fire History from 1950 to 2018 Credits:  CDF,USFS,BLM,NPS. Publication Date:  May 1, 2019 Publisher:  CDF,USFS,BLM, NPS. Online Linkages:  https://frap.fire.ca.gov/mapping/gis-data/</othercit>
+			</citeinfo>
+		</citation>
+	</idinfo>
+	<distinfo>
+		<distliab>No warranty is made by Data Basin for use of this dataset.  No warranty is made by Data Basin regarding the accuracy, reliability, or completeness of this dataset. In no event shall Data Basin have any liability whatsoever for payment of any consequential, incidental, indirect, special, or tort damages of any kind, including, but not limited to, any loss of profits arising out of the use or reliance on the geographic or attribute data contained within this dataset or arising out of the delivery, installation, operation, or support by Data Basin.</distliab>
+		<techpreq>Desktop GIS software.</techpreq>
+		<stdorder>
+			<digform>
+				<digtopt>
+					<onlinopt>
+						<accinstr>Download from https://databasin.org</accinstr>
+						<computer>
+							<networka>
+								<networkr>https://databasin.org/datasets/bf8db57ee6e0420c8ecce3c6395aceeb</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
+				<digtinfo>
+					<filedec>No compression applied</filedec>
+					<formvern>ArcGIS 10</formvern>
+					<formspec>Feature Layer</formspec>
+					<formname>Feature Layer</formname>
+				</digtinfo>
+			</digform>
+			<ordering>Download from https://databasin.org</ordering>
+			<fees>None</fees>
+		</stdorder>
+		<distrib>
+			<cntinfo>
+				<cntemail>databasin_admin@consbio.org</cntemail>
+				<cntperp>
+					<cntorg>Data Basin</cntorg>
+					<cntper>Data Basin Administrator</cntper>
+				</cntperp>
+				<cntvoice>541-757-0687</cntvoice>
+				<cntaddr>
+					<country>USA</country>
+					<city>Corvallis</city>
+					<postal>97333</postal>
+					<address>136 SW Washington Ave, Suite 202</address>
+					<addrtype>physical address</addrtype>
+					<state>OR</state>
+				</cntaddr>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<Esri>
+		<CreaDate>20200319</CreaDate>
+		<CreaTime>17133300</CreaTime>
+		<SyncOnce>TRUE</SyncOnce>
+		<DataProperties>
+			<itemProps>
+				<itemLocation>
+					<linkage Sync="TRUE">file://C:\windows\temp\tmpeqn2ai\bf8db57ee6e0420c8ecce3c6395aceeb\commondata\wildfire_risk_sn_roadless\Cal_Hist_1950_2018</linkage>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+				</itemLocation>
+			</itemProps>
+			<copyHistory>
+				<copy source="C:\windows\temp\tmpeqn2ai\commondata\wildfire_risk_sn_roadless\Cal_Hist_1950_2018" dest="C:\windows\temp\tmpeqn2ai\bf8db57ee6e0420c8ecce3c6395aceeb\commondata\wildfire_risk_sn_roadless\Cal_Hist_1950_2018" date="20200319" time="17133300"/>
+			</copyHistory>
+		</DataProperties>
+	</Esri>
+</metadata>
