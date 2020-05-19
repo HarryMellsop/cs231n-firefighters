@@ -34,11 +34,12 @@ def download_timeseries_image(minLat, maxLat, minLong, maxLong, lat_resolution=N
         long_resolution = resolution
         lat_resolution = resolution
 
-    landsat = ee.ImageCollection("LANDSAT/LE07/C01/T1").filterDate('1999-01-01', '2002-12-31').select(['B1', 'B2', 'B3'])
-    print(landsat)
+    landsat = ee.Image('LANDSAT/LC08/C01/T1_TOA/LC08_123032_20140515').select(['B1', 'B2', 'B3'])
     geometry = ee.Geometry.Rectangle([116.2621, 39.8412, 116.4849, 40.01236])
-    landsat
-    path = landsat.
+    path = landsat.getThumbURL({
+        'scale': 30,
+        'region': geometry
+    })
     print(path)
 
 
