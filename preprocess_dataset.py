@@ -38,10 +38,7 @@ def download_timeseries_image(minLat, maxLat, minLong, maxLong, lat_resolution=N
     print(landsat)
     geometry = ee.Geometry.Rectangle([116.2621, 39.8412, 116.4849, 40.01236])
     landsat
-    path = landsat.getDownloadUrl({
-        'scale': 30,
-        'region': geometry
-    })
+    path = landsat.
     print(path)
 
 
