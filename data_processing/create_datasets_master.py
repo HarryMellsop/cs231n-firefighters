@@ -11,11 +11,11 @@ maxLat = 36
 # how many slices do we want in each direction?
 numSlices = 100 # means that each image slice will be around 1.1km in each direction
 
-# use Alex's library of function to create labelled 'y' vector which will be (100x100) x 1 matrix boolean which represents if this
+# use Alex's library of functions to create labelled 'y' vector which will be (numSlices x numSlices) x 1 matrix boolean which represents if this
 # image was on fire in the subsequent month
 y = create_grid_main()
 
-# pull images off of Google Earth Engine to create an 'X' tensor that will be (100x100) x IMG_HEIGHT x IMG_WIDTH x NUM_CHANNELS
+# pull images off of Google Earth Engine to create an 'X' tensor that will be (numSlices x numSlices) x IMG_HEIGHT x IMG_WIDTH x NUM_CHANNELS
 X = download_images_main()
 
 # save these two databases for use by a later ML model
