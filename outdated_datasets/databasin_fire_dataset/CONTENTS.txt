@@ -1,0 +1,87 @@
+
+# California, USA Fire History from 1950 to 2018
+
+
+## URL
+https://databasin.org/datasets/bf8db57ee6e0420c8ecce3c6395aceeb
+
+
+## Dataset Type
+ArcGIS
+
+
+## Credits
+CDF,USFS,BLM,NPS.
+
+
+## Uploaded By
+[Conservation Biology Institute](https://databasin.org/people/consbio)
+
+
+## Description
+This dataset represents USDA Forest Service fire perimeters 10+ acres
+and California Dept of Forestry fire perimeters 300+ acres occurring
+from the year 1950 to 2007. The geographic extent of the fires includes
+the State of California, Region 5 Forests (some R5 Forests have
+boundaries falling outside CA) and the Toiyabe National Forest in Region
+4. Some fires before 1950 are also included. Fires are compiled from
+both historic and recently mapped records. This layer contains records
+up to and including fires from 2018.
+
+  
+
+ Fire18_1 was released May 1st, 2019. 413 wildfires from the 2018 fire season were added to the database. There are two fires on BIA managed land that do not have 3 letter code identifiers and thus &quot;Unit&quot; was left blank. A hand drawn perimeter of the 1990 San Juan Canyon fire in BEU was submitted by a fire fighter who worked on the fire. The perimeter of the Thomas fire of 2017 was replaced this year by one collected by SBC that is based on someone walking some parts of the perimeter for better accuracy.
+
+
+## Use Constraints
+This work is licensed under a  Creative Commons Attribution 3.0 License .
+
+
+### Original Metadata
+metadata/metadata1_original.xml
+
+
+### Data Basin Metadata
+metadata/metadata1.xml
+
+
+### Data Files
+data/v101/0000California, USA Fire History from 1950 to 2018.lyr
+data/commondata/wildfire_risk_sn_roadless/Cal_Hist_1950_2018.sbx
+data/commondata/wildfire_risk_sn_roadless/Cal_Hist_1950_2018.shx
+data/commondata/wildfire_risk_sn_roadless/Cal_Hist_1950_2018.sbn
+data/commondata/wildfire_risk_sn_roadless/Cal_Hist_1950_2018.dbf
+data/commondata/wildfire_risk_sn_roadless/Cal_Hist_1950_2018.shp
+data/commondata/wildfire_risk_sn_roadless/Cal_Hist_1950_2018.CPG
+data/commondata/wildfire_risk_sn_roadless/Cal_Hist_1950_2018.shp.xml
+data/commondata/wildfire_risk_sn_roadless/Cal_Hist_1950_2018.prj
+data/esriinfo/item.pkinfo
+data/esriinfo/iteminfo.xml
+data/esriinfo/thumbnail/thumbnail.png
+data/v10/0000California, USA Fire History from 1950 to 2018.lyr
+
+
+
+### Attribute Data
+
+AGENCY    AGENCY    Direct Protection Agency who responed to the fire (based on UNIT_ID, assigned by Direct Protection Area)    
+ALARM_DATE    ALARM_DATE    ALARM_DATE    
+CAUSE    CAUSE    Reason fire ignited    
+C_METHOD    C_METHOD    Method used to capture fire perimeter data    
+COMMENTS    COMMENTS    COMMENTS    
+CONT_DATE    CONT_DATE    CONT_DATE    
+FID    FID    FID    
+FIRE_NAME    FIRE_NAME    Name assigned to fire by responsible agency    
+FIRE_NUM    FIRE_NUM    This used to be a CAL FIRE and Federal number, but now is only used by Fedreal Agencies, so it isn&#39;t collected.    
+GIS_ACRES    GIS_ACRES    Calculated area in acres based on Shape_Area.    
+INC_NUM    INC_NUM    The Incident number; a consecutive number assigned by the Emergency Command Center of the responsible agency for the fire.    
+OBJECTID    OBJECTID    Internal feature number    
+OBJECTIVE    OBJECTIVE    Either suppression or resource benefit (a fire that is allowed to burn in order to encourage environmental health.    
+REPORT_AC    REPORT_AC    Estimated area consumed in fire    
+Shape    Shape    Feature geometry.    
+Shape_Area    Shape_Area    Area of feature in internal units squared.    
+Shape_Leng    Shape_Leng    Shape_Leng    
+STATE    STATE    STATE    
+UNIT_ID    UNIT_ID    Unit of responsible agency where fire started (based on Direct Protection Area)    
+YEAR_    YEAR_    YEAR_    
+
