@@ -19,8 +19,8 @@ y = create_grid_main()
 X = download_images_main()
 
 # save these two databases for use by a later ML model
-with open("./us_wildfire_dataset/ca_fires_X.pkl", "wb") as f:
+with open("../us_wildfire_dataset/ca_fires_X.pkl", "wb") as f:
     pickle.dump(X, f, protocol=pickle.HIGHEST_PROTOCOL)
 
-with open("./us_wildfire_dataset/ca_fires_y.pkl", "wb") as f:
+with open("../us_wildfire_dataset/ca_fires_y.pkl", "wb") as f:
     pickle.dump(y, f, protocol=pickle.HIGHEST_PROTOCOL)
