@@ -6,7 +6,7 @@ from bokeh.io import output_notebook
 from bokeh.plotting import figure, show
 from bokeh.models import ColumnDataSource, LogColorMapper
 
-cnx = sqlite3.connect('../input/FPA_FOD_20170508.sqlite')
+cnx = sqlite3.connect('./us_wildfire_dataset/FPA_FOD_20170508.sqlite')
 df = pd.read_sql_query("SELECT LATITUDE, LONGITUDE, FIRE_SIZE, STATE FROM fires", cnx)
 df.head(5)
 
