@@ -8,6 +8,8 @@ maxLong = -116.0
 minLat = 34
 maxLat = 36
 
+# %%
+
 # how many slices do we want in each direction?
 numSlices = 100 # means that each image slice will be around 1.1km in each direction
 
@@ -24,3 +26,5 @@ with open("../us_wildfire_dataset/ca_fires_X.pkl", "wb") as f:
 
 with open("../us_wildfire_dataset/ca_fires_y.pkl", "wb") as f:
     pickle.dump(y, f, protocol=pickle.HIGHEST_PROTOCOL)
+
+# %%
