@@ -5,4 +5,4 @@
 *.ipynb_checkpoints
 *__pycache__
 *.pkl
-./raw_images/*
+raw_images/
